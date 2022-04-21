@@ -1,7 +1,5 @@
-import Head from 'next/head';
-import {useEffect} from 'react';
-import {themeChange} from 'theme-change';
-import ThemeButton from '../components/ThemeButton';
+import Head from "next/head";
+import ThemeButton from "../components/ThemeButton";
 
 export default function Home() {
   

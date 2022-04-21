@@ -8,7 +8,7 @@ export default function ThemeSelector() {
 
   return (
     <div>
-      <select class="select" data-choose-theme>
+      <select className="select" data-choose-theme>
         <option value="">
           Default
         </option>

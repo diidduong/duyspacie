@@ -1,7 +1,6 @@
-import '../styles/globals.css'
-import {useEffect} from 'react'
-import {themeChange} from 'theme-change'
-import ThemeButton from '../components/ThemeButton'
+import "../styles/globals.css"
+import {useEffect} from "react"
+import {themeChange} from "theme-change"
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {

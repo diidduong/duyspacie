@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState} from "react"
 import {daisyui} from "../tailwind.config"
 
 export default function ThemeButton() {
@@ -21,7 +21,7 @@ export default function ThemeButton() {
       onClick={changeToNextTheme}
       data-set-theme={themeList[themeIdx]}
       data-act-class="ACTIVECLASS">
-        " Welcome to Duy Spacie "
+        &quot; Welcome to Duy Spacie &quot; 
       </button>
     </div>
   )
